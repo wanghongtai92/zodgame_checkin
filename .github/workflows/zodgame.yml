@@ -12,7 +12,7 @@ on:
 # 核心修改：在这里添加全局权限，允许 Action 写入仓库和更新工作流
 permissions:
   contents: write
-
+  actions: write
 jobs:
   build:
     runs-on: windows-latest
